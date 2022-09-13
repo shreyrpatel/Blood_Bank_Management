@@ -1,0 +1,155 @@
+.main_register{
+  margin:0;
+  padding:0;
+}
+
+a{
+    color: inherit;
+}
+
+nav{
+    background: #393e46;
+    height: 82px;
+    width: 100%;
+    margin:0;
+  }
+
+label.logo{
+    margin:0;
+    width: 500px;
+    height: 70px;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    font-family: 'Zen Dots', cursive;
+    background: -webkit-linear-gradient(90deg,red,#800000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .blood {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 80px;
+  width: 130px;
+  height: 40px;
+  font-size: 35px;
+  background: -webkit-linear-gradient(#fb3f3f, #fccf46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-family: 'Zen Dots', cursive;
+}
+
+.drop {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 75px;
+  width: 40px;
+  height: 70px;
+  font-size: 35px;
+}
+
+.bank {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 73px;
+  width: 120px;
+  height: 70px;
+  font-size: 35px;
+  background: -webkit-linear-gradient(#fb3f3f, #fccf46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Zen Dots', cursive;
+  font-weight: bold;
+}
+
+  nav ul{
+    float:right;
+    margin-right: 20px;
+    margin-bottom:0;
+    margin-top:0;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0;
+  }
+  nav ul li .donate_button{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .donate_button:hover{
+    background: #990000;
+    transition:.5s;
+  }
+
+  .form_center{
+    margin-left:15px;
+      position: absolute;
+      width: 800px;
+      background: white;
+      border-radius: 10px;
+      height: 1325px;;
+      border: 2px solid #cccccc;
+      padding:20px;
+      padding-top: 20px;
+      background: #eeeeee
+
+  }
+.headline{
+  background:#eeeeee ;
+}
+.headline h3{
+  margin:0;
+  padding-left:20px;
+  text-align:center;
+}
+.headline h2{
+  margin:0;
+  padding-left:20px;
+  text-align:center;
+  font-size: 35px;
+  font-weight: bold;
+  color:crimson;
+}
+form .txt_field
+{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 12px 0;
+  cursor:text;
+}
+
+.txt_field input{
+  width: 800px;
+  padding: 0 3px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: text;
+}
+input[type="radio"]
+{
+  margin-left: 20px;
+}
+.image_register{
+  background-image: url("Images/donate.jpg");
+  float:right;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:800px;
+  height:900px;
+  position: -webkit-sticky;
+ top: 0;
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>register_to_donate</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="register_to_donate.css">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="main_register">
+  <nav>
+    <div class="blood">Blood</div>
+    <div class="drop">🩸</div>
+    <div class="bank">Bank</div>
+    <ul>
+      <li><a href="login.html" class="donate_button">Donate</a></li>
+      <li><a href="bank1.html" class="donate_button">Search Donor</a></li>
+    </ul>
+  </nav>
+  <br>
+  <div class="headline">
+    <h2>Register To Donate</h2><br>
+    <i><h3>Please verify if you are eligible to donate blood or not.To verify, please <a href="Eligiblity_criteria.html" class="btn btn-danger">
+    Click Here
+   </a></h3></i>
+
+    <br><h3>Please continue further only if you are eligible and you have satisfied all the conditions.</h3><br>
+  </div><br>
+<div class="form_center">
+  <div class="form_register">
+  <form method="post">
+    <!-- Username -->
+    <div class="txt_field">
+      <label>
+        <span>Name</span><br>
+        <input type="text" name="Name" value="" placeholder="Enter Full Name" required>
+      </label>
+    </div>
+    <br>
+    <!-- username End -->
+
+    <!-- IDEA: Blood Group -->
+    <label>
+      <span>Blood Group:</span>
+       <br><br>
+      <select style="width:400px; height:25px;" name="blood_groups" size="1" required >
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="AB">AB</option>
+        <option value="O">O</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+    <br><br>
+    <!-- Blood Group End -->
+
+      <!-- Rh Factor -->
+      <span>Rh Factor :</span>
+    <label>
+      <input type="radio" name="rh factor" value="" required>
+      <span>Positive</span>
+    </label>
+    <label>
+      <input type="radio" name="rh factor" value="" required>
+      <span>Negative</span>
+    </label>
+  <br><br>
+    <!-- Rh factor End -->
+
+    <!-- Phone NUmber -->
+    <div class="txt_field">
+    <label>Phone Number
+      <br>
+      <input type="tel" name="phone_number"  title="Please use a 10 digit telephone number with no dashes or dots" placeholder="eg:999999999" pattern="[0-9]{10}" maxlength="10" required >
+    </label>
+    </div>
+    <br><br>
+    <!-- Phone Number End -->
+    <!-- Address Details -->
+  <fieldset>
+      <legend>Address Details</legend>
+      <div class="txt_field">
+    <label> Address Line 1
+      <input type="text" name="address_line_1"  placeholder="block no.,block/building name" size="50" required></label>
+    </div><br>
+    <div class="txt_field">
+      <label > Address Line 2
+      <input type="text" name="address_line_2" value="" placeholder="street name,area name,nearby location" size="50" required></label>
+    </div><br>
+      <div class="txt_field">
+      <label>City
+      <input type="text" name="city_name" value=""></label>
+    </div>
+      <br>
+      <label>State
+      <select style="width:400px;height:25px;"name="state" id="state" size="1">
+        <option value="Select">Select State</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chandigarh">Chandigarh</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+        <option value="Daman and Diu">Daman and Diu</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Lakshadweep">Lakshadweep</option>
+        <option value="Puducherry">Puducherry</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Uttarakhand">Uttarakhand</option>
+        <option value="West Bengal">West Bengal</option>
+      </select></label>
+      <br><br>
+        <div class="txt_field">
+        <label>Pin-Code
+        <input type="tel" name="pin-code" value="" title="Enter A Six Digits Valid Pin-Code/PostCode" placeholder="pincode" pattern="[0-9]{6}" maxlength="6" required></label>
+      </div>
+    </fieldset>
+    <br><br>
+    <!-- Address Detail End -->
+
+    <!-- DATE -->
+    <label>Select Date:
+      <input style="width:400px;height:25px;"type="date" name="" value="">
+    </label>
+    <!-- Date end -->
+<br><br>
+    <!-- Time Slot -->
+    <label>Select Time Slot:
+      <select style="width:375px;height:25px;" name="Time Slots">
+        <option value="Select Slot">Select Slot</option>
+        <option value="9AM-10AM">9AM-10AM</option>
+        <option value="10AM-11AM">10AM-11AM</option>
+        <option value="11AM-12PM">11AM-12PM</option>
+        <option value="12PM-01PM">12PM-01PM</option>
+        <option value="01PM-02PM">01PM-02PM</option>
+        <option value="02PM-03PM">02PM-03PM</option>
+        <option value="03PM-04PM">03PM-04PM</option>
+        <option value="04PM-05PM">04PM-05PM</option>
+        <option value="05PM-06PM">05PM-06PM</option>
+        <option value="06PM-07PM">06PM-07PM</option>
+        <option value="07PM-08PM">07PM-08PM</option>
+        <option value="08PM-09PM">08PM-09PM</option>
+      </select>
+    </label>
+    <br><br>
+    <!-- Time Slot End -->
+
+
+    <label>
+    <input type="checkbox" name="" value="" required>
+    <span>I Confirm That I'm Atleast 18 Years Old</span>
+    </label><br><br>
+    <a href="#" class="btn btn-outline-danger">
+      Register
+   </a>
+   <button style="margin-left:40px;" type="reset" value="Reset" class="btn btn-outline-danger">Reset</button>
+  </form>
+</div>
+</div>
+<div class="image_register">
+</div>
+</body>
+</html>
